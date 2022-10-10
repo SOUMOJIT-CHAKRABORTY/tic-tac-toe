@@ -1,0 +1,15 @@
+.square {
+  height: 50px;
+  width: 50px;
+  border: 2px black;
+  border-style: solid;
+  margin: 1px;
+  background-size: cover;
+  display: inline-block;
+}
+.cross {
+  background-image: url("/Users/soumojitchakraborty/Documents/React-Projects/tic-tac-toe/circle-line-icon.png");
+}
+.circle {
+  background-image: url("/Users/soumojitchakraborty/Documents/React-Projects/tic-tac-toe/close-icon.png");
+}

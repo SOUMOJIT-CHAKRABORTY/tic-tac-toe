@@ -1,11 +1,35 @@
 import React from "react";
+import "./App.css";
+function Square() {
+  return <div className="square cross"></div>;
+}
 
 function App() {
+  return Board();
+}
+
+function Board() {
   return (
-    <div className="subtext">
-      <p>Tic-Tac-Toe</p>
+    <div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
     </div>
   );
 }
+
+function Block() {}
 
 export default App;
