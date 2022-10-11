@@ -1,8 +1,5 @@
 import React from "react";
 import "./App.css";
-function Square() {
-  return <div className="square cross"></div>;
-}
 
 function App() {
   return Board();
@@ -10,9 +7,9 @@ function App() {
 
 function Board() {
   return (
-    <div>
+    <div className="Board">
       <div>
-        <Square />
+        <Square mark="{}"> </Square>
         <Square />
         <Square />
       </div>
@@ -30,6 +27,9 @@ function Board() {
   );
 }
 
-function Block() {}
+// function Block() {}
+function Square({ mark }) {
+  return <div className={`square ${mark}`}></div>;
+}
 
 export default App;
