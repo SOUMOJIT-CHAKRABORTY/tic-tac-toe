@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-Building a simple tic-tac-toe app using react hooks and redux
+Building a simple tic-tac-toe app using react hooks and redux.
 
 # Getting Started with Create React App
 
