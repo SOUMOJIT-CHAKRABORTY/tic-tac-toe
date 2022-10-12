@@ -7,9 +7,9 @@
   background-size: cover;
   display: inline-block;
 }
-.cross {
+.mark2 {
   background-image: url("/Users/soumojitchakraborty/Documents/React-Projects/tic-tac-toe/circle-line-icon.png");
 }
-.circle {
+.mark1 {
   background-image: url("/Users/soumojitchakraborty/Documents/React-Projects/tic-tac-toe/close-icon.png");
 }
