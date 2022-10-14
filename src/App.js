@@ -18,9 +18,9 @@ function Board() {
   return (
     <div className="Board">
       <div>
-        <Square mark={2} position={0} changeMark={changeMark}></Square>
-        <Square mark={1} position={1} changeMark={changeMark}></Square>
-        <Square mark={1} position={2} changeMark={changeMark}></Square>
+        <Square mark={2} changeMark={changeMark}></Square>
+        <Square mark={1} changeMark={changeMark}></Square>
+        <Square mark={1} changeMark={changeMark}></Square>
       </div>
       <div>
         <Square mark={1} position={3} changeMark={changeMark}></Square>
